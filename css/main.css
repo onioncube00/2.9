@@ -1,6 +1,24 @@
 /* ========================================
  * CSS written here will override Tachyons
  * ======================================== */
+@font-face {
+  font-family: "Rubik";
+  src: url("rubik-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("rubik-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("rubik-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
 
 @media only screen and (min-width: 351px) {
   body {
@@ -16,7 +34,7 @@
 }
 @media only screen and (min-width: 351px) {
   .title {
-    font-family: rubik;
+    font-family: Rubik;
     font-size: 50px;
     font-weight: bold;
     width: 50vw;
@@ -26,7 +44,7 @@
 }
 @media only screen and (max-width: 350px) {
   .title {
-    font-family: rubik;
+    font-family: Rubik;
     font-size: 25px;
     font-weight: bold;
     width: 80vw;
