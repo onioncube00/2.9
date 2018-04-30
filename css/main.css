@@ -1,0 +1,470 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+@media only screen and (min-width: 351px) {
+  body {
+    margin: 80px auto;
+    width: 50vw;
+  }
+}
+@media only screen and (max-width: 350px) {
+  body {
+    margin: 40px auto;
+    width: 80vw;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .title {
+    font-family: rubik;
+    font-size: 50px;
+    font-weight: bold;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .title {
+    font-family: rubik;
+    font-size: 25px;
+    font-weight: bold;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.line {
+  width: 50vw;
+  height: 1px;
+  margin: 20px auto;
+  padding: 0px;
+  background-color: #d5d5d5;
+  overflow: hidden;
+}
+.line2,
+.line3,
+.line4 {
+  width: 45vw;
+  height: 1px;
+  margin: 20px auto;
+  padding: 0px;
+  background-color: #d5d5d5;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 351px) {
+  .img1 {
+    font-family: rubik;
+    /* line-height: 1; */
+    font-size: 12px;
+    max-width: 100%;
+    margin: auto;
+    width: 65vw;
+  }
+  .caption1 {
+    diaplay: flex;
+    width: 50vw;
+    height: auto;
+    margin: auto;
+  }
+  .caption1-1 {
+    width: 100%;
+    height: 50%;
+    font-style: italic;
+  }
+  .caption1-2 {
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    align-items: flex-end;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .img1 {
+    font-family: rubik;
+    font-size: 10px;
+    max-width: 100%;
+    margin: auto;
+    width: 80vw;
+  }
+  .caption1 {
+    diaplay: flex;
+    width: 80vw;
+    height: auto;
+    margin: auto;
+  }
+  .caption1-1 {
+    width: 100%;
+    height: 50%;
+    font-style: italic;
+  }
+  .caption1-2 {
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    align-items: flex-end;
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 351px) {
+  .text1 {
+    font-family: rubik;
+    padding: 0px;
+    line-height: 1.3;
+    box-sizing: content-box;
+    text-align: left;
+    width: 50vw;
+    margin: 20px auto;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .text1 {
+    font-family: rubik;
+    padding: 0px;
+    line-height: 1.2;
+    box-sizing: content-box;
+    text-align: left;
+    width: 80vw;
+    margin: 20px auto;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .text3 {
+    font-family: rubik;
+    padding: 0px;
+    line-height: 1.3;
+    box-sizing: content-box;
+    text-align: left;
+    width: 50vw;
+    margin: 20px auto;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .text3 {
+    font-family: rubik;
+    padding: 0px;
+    line-height: 1.2;
+    box-sizing: content-box;
+    text-align: left;
+    width: 80vw;
+    margin: 0px auto 20px auto;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .imgtext1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .text2 {
+    font-family: rubik;
+    line-height: 1.3;
+    text-align: left;
+    font-size: 14px;
+    width: 30vw;
+    padding: 0px 0px 10px 20px;
+    height: 30%;
+    box-sizing: content-box;
+    align-self: flex-end;
+  }
+  .img2 {
+    font-family: rubik;
+    /* line-height: 1; */
+    font-size: 12px;
+    max-width: 100%;
+    margin: auto auto auto 0px;
+    width: 40vw;
+  }
+  .caption2 {
+    diaplay: flex;
+    width: inherit;
+    height: auto;
+    margin: auto;
+  }
+  .caption2-1 {
+    width: 100%;
+    height: 50%;
+    font-style: italic;
+  }
+  .caption2-2 {
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    align-items: flex-end;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .img2 {
+    font-family: rubik;
+    /* line-height: 1; */
+    font-size: 10px;
+    max-width: 100%;
+    margin: auto auto auto 0px;
+    width: 80vw;
+  }
+  .caption2 {
+    diaplay: flex;
+    width: inherit;
+    height: auto;
+    margin: auto;
+  }
+  .caption2-1 {
+    width: 100%;
+    height: 50%;
+    font-style: italic;
+  }
+  .caption2-2 {
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    font-size: 8px;
+  }
+  .text2 {
+    font-family: rubik;
+    padding: 0px;
+    line-height: 1.2;
+    box-sizing: content-box;
+    text-align: left;
+    width: 80vw;
+    margin: 20px auto 0px auto;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .text4 {
+    font-family: rubik;
+    padding: 0px;
+    line-height: 1.3;
+    box-sizing: content-box;
+    text-align: left;
+    width: 50vw;
+    margin: 20px auto;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .text4 {
+    font-family: rubik;
+    padding: 0px;
+    line-height: 1.2;
+    box-sizing: content-box;
+    text-align: left;
+    width: 80vw;
+    margin: 20px auto;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .column {
+    display: flex;
+    flex-direction: row;
+  }
+  .text5 {
+    font-family: rubik;
+    padding: 0px;
+    line-height: 1.3;
+    box-sizing: content-box;
+    text-align: left;
+    width: 50vw;
+    margin: auto;
+    font-size: 14px;
+    padding: 0px 10px 0px 0px;
+  }
+  .text6 {
+    font-family: rubik;
+    padding: 0px;
+    line-height: 1.3;
+    box-sizing: content-box;
+    text-align: left;
+    width: 50vw;
+    margin: 0px auto auto auto;
+    font-size: 14px;
+    padding: 0px 0px 0px 10px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .text5 {
+    font-family: rubik;
+    padding: 0px;
+    line-height: 1.2;
+    box-sizing: content-box;
+    text-align: left;
+    width: 80vw;
+    margin: auto;
+    font-size: 12px;
+  }
+  .text6 {
+    font-family: rubik;
+    padding: 0px;
+    line-height: 1.2;
+    box-sizing: content-box;
+    text-align: left;
+    width: 80vw;
+    margin: auto;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .imgtext2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .img3 {
+    font-family: rubik;
+    font-size: 12px;
+    max-width: 100%;
+    margin: auto 0px auto auto;
+    width: 35vw;
+  }
+  .caption3 {
+    diaplay: flex;
+    width: inherit;
+    height: 50%;
+    margin: auto;
+  }
+  .caption3-1 {
+    width: 100%;
+    height: 50%;
+    font-style: italic;
+  }
+  .caption3-2 {
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    align-items: flex-end;
+    font-size: 10px;
+  }
+  .quote {
+    width: 12vw;
+    height: 50%;
+    fontsize: 50px;
+    font-style: italic;
+    font-family: rubik;
+    font-weight: lighter;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+    font-size: 18px;
+    padding: 10px;
+    align-self: center;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .img3 {
+    font-family: rubik;
+    font-size: 10px;
+    max-width: 100%;
+    margin: auto 0px auto auto;
+    width: 80vw;
+  }
+  .caption3 {
+    diaplay: flex;
+    width: inherit;
+    height: 50%;
+    margin: auto;
+  }
+  .caption3-1 {
+    width: 100%;
+    height: 50%;
+    font-style: italic;
+  }
+  .caption3-2 {
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    align-items: flex-end;
+    font-size: 8px;
+  }
+  .quote {
+    width: 80vw;
+    height: 50%;
+    fontsize: 50px;
+    font-style: italic;
+    font-family: rubik;
+    font-weight: lighter;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+    font-size: 16px;
+    padding: 10px;
+    align-self: center;
+    margin: 0px auto 20px auto;
+  }
+}
+
+@media only screen and (min-width: 351px) {
+  .img4 {
+    font-family: rubik;
+    font-size: 12px;
+    max-width: 100%;
+    margin: auto;
+    width: 50vw;
+  }
+  .caption4 {
+    width: inherit;
+    height: auto;
+    margin: auto;
+  }
+  .caption4-1 {
+    width: 100%;
+    height: 50%;
+    font-style: italic;
+  }
+  .caption4-2 {
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .img4 {
+    font-family: rubik;
+    font-size: 10px;
+    max-width: 100%;
+    margin: auto;
+    width: 80vw;
+  }
+  .caption4 {
+    width: inherit;
+    height: auto;
+    margin: auto;
+  }
+  .caption4-1 {
+    width: 100%;
+    height: 50%;
+    font-style: italic;
+  }
+  .caption4-2 {
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    font-size: 8px;
+  }
+}
+
+h2 {
+  font-family: rubik;
+  font-weight: semi-bold;
+  font-size: 35px;
+  color: black;
+  margin: 20px;
+  text-align: center;
+}
+
+h6 {
+  font-family: rubik;
+  font-weight: normal;
+  font-size: 12px;
+  color: black;
+  margin: 0;
+  text-align: center;
+}
